@@ -15,10 +15,7 @@ class Triangle
 
   def kind
     if (@side1 == 0 || @side2 == 0 || @side3 == 0)
-      begin
         raise Triangle.TriangleError
-      rescue Triangle.TriangleError => error
-          puts error.message
         end #end begin
   elsif @side1 == @side2 && @side2 == @side3
       :equilateral
