@@ -13,7 +13,7 @@ class Triangle
   def kind
     if @side1 == @side2 && @side2 == @side3
       :equilateral
-    elsif @tempArray.uniq.length == 1
+    elsif @tempArray.uniq.length == "1"
       :isosceles
     else
     end # end if
