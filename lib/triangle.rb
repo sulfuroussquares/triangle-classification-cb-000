@@ -27,8 +27,9 @@ class Triangle
             puts error.message
           end
           end #end if
-    else
+    elsif (@side1 != @side2 && @side2 != @side3)
       :scalene
+    else
     end # end if
 
   end
