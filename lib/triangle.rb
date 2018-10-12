@@ -8,7 +8,7 @@ class Triangle
     @tempArray << side1
     @tempArray << side2
     @tempArray << side3
-    puts @tempArray.uniq
+    puts @tempArray.uniq.length
   end
 
   def kind
