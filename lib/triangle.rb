@@ -39,3 +39,4 @@ class Triangle
       "Illegal triangle property; Please check your values"
     end #end message
   end #end class TriangleError
+end
