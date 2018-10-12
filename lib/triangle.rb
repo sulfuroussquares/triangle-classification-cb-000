@@ -24,6 +24,8 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    # triangle error code
+    def message
+      "Illegal triangle property; Please check your values"
+    end
   end
 end
