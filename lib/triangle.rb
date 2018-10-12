@@ -5,6 +5,9 @@ class Triangle
     @side2 = side2
     @side3 = side3
     @tempArray = []
+    @tempArray << side1
+    @tempArray << side2
+    @tempArray << side3
   end
 
   def kind
