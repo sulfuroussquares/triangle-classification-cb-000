@@ -26,6 +26,6 @@ class Triangle
   class TriangleError < StandardError
     def message
       "Illegal triangle property; Please check your values"
-    end
-  end
-end
+    end #end message
+  end #end class TriangleError
+end #end Triangle class
