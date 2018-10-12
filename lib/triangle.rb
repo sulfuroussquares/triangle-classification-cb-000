@@ -11,8 +11,6 @@ class Triangle
   end
 
   def kind
-    tempArray = []
-    .each { |a| print a -= 10, " " }
     if @side1 == @side2 && @side2 == @side3
       :equilateral
     elsif @side1 != @side2 && @side2 == @side3
