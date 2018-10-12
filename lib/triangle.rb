@@ -8,13 +8,13 @@ class Triangle
     @tempArray << side1
     @tempArray << side2
     @tempArray << side3
-  puts @tempArray.uniq!.length
   end
 
   def kind
     if @side1 == @side2 && @side2 == @side3
       :equilateral
-    elsif @tempArray.uniq!.length == 1
+    elsif (@side1 != @side2 && @side2 == @side3) ||
+      (@side1 == @side2 && @side2 != @side3)
       :isosceles
     else
     end # end if
